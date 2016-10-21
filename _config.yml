@@ -1,22 +1,20 @@
 
 # html lang
-language: en
+language: zh-CN
 
 # main menu navigation
 menu:
-  Home: index.html
-  Archives: archives
-  Tags: tags
-  Categories: categories
+  home: index.html
+  archives: archives
+  tags: tags
+  categories: categories
   About: about
-  Github: https://github.com/stiekel/hexo-theme-random
+  Github: https://github.com/houzw
 
 social:
-  GitHub: https://github.com/stiekel/hexo-theme-random
-  Coding.NET: https://coding.net/u/Stiekel
-  Twitter: https://twitter.com/SidCN
-  Weibo: http://weibo.com/sidcn
-  DouBan: http://www.douban.com/people/Stiekel/
+  GitHub: https://github.com/houzw
+  Weibo: http://weibo.com/singland
+  # cnblogs: http://www.cnblogs.com/yes-V-can/
 
 # Google analytics
 google_analytics:
@@ -27,16 +25,16 @@ duoshuo_shortname:
 # Disqus
 disqus_shortname:
 # Uyan
-uyan_id:
+uyan_id: 2117097
 # jiaThis id
 # if you want to change the style of jiaThis, please go to chage the following file:
 # theme/random/layouts/includes/jiathis.swig
-jiaThis_uid: 
+jiaThis_uid: 2117097
 jiathisConfig:
   data_track_clickback: true
   summary: ""
   showClose: true
-  shortUrl: false
+  shortUrl: true
   hideMore: false
 
 
@@ -112,8 +110,9 @@ unsplashConfig:
   # blur: true
   gravity: 'north' # north, east, south, west, center
   # greyscale: true
+  image: 1032 # NASA
 
-avatar: http://7te9fe.com1.z0.glb.clouddn.com/default_avatar.jpg
+avatar: http://ofcj2lgtd.bkt.clouddn.com/avatar.jpg
 
 # do not like fancybox, set this as false, this will turn it off
 fancybox: true
